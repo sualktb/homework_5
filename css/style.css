@@ -1,0 +1,63 @@
+nav {
+	background-color: burlywood;
+	max-width: 980px;
+	height: 100px;
+	margin: 0 auto;
+}
+
+.form-header {
+	font-size: 26px;
+	background-color: aqua;
+	position: relative;
+	display: inline;
+	text-transform: uppercase;
+}
+.form-header-border {
+	position: absolute;
+	border-bottom: solid 2px #000;
+	width: 70%;
+	left: 0;
+	bottom: -5px;
+
+}
+.legend-area {
+	max-width: 980px;
+	margin: 25px auto 0 auto;
+}
+.input-wrapper {
+	display: flex;
+	background-color: aqua;
+	width: 50%;
+	margin: 30px auto 0 auto;
+	position: relative;
+}
+.text-field {
+	padding: 10px;
+	width: 100%;
+	outline: none;
+	border: solid 2px burlywood;
+}
+.text-field:focus{
+	border: solid 2px aqua;
+}
+.icon {
+	padding-top: 12px;
+	min-width: 50px;
+	text-align: center;
+}
+.icon-inside {
+	position: absolute;
+	right: 20px;
+	top: 12px;
+}
+
+.block-btn {
+	display: block;
+	margin: 30px auto 0 auto;
+  	width: 50%;
+	border: 2px solid burlywood;
+	background-color: aqua;
+	padding: 12px;
+	font-size: 20px;
+	text-align: center;
+}
